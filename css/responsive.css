@@ -1,0 +1,98 @@
+/* 1 - ზომების შეცვლა */
+/* @media (max-width:1150px) {
+    .left-video {
+        width: 250px;
+        background-color: red;
+    }
+
+    .right-video {
+        width: 250px;
+        background-color: brown;
+    }
+}
+
+
+@media (max-width:510px) {
+    .left-video {
+        width: 150px;
+        height: 200px;
+        background-color: black;
+    }
+
+    .right-video {
+        display: none;
+    }
+}
+
+@media (max-width:480px) {
+    .right-video {
+        display: flex;
+    }
+} */
+
+
+/* 2 - ჩამოვაგდებთ ელემენტებს - wrap */
+/* @media (max-width:1150px) {
+    .d-flex {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+} */
+
+/* 3 - ჩამოვაგდებთ ელემენტებს - column */
+
+@media (max-width:1150px) {
+    .d-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-video {
+        margin-bottom: 30px;
+    }
+
+}
+
+
+
+
+/* images section */
+/* @media (max-width:555px) {
+    .images-wraper {
+        justify-content: center;
+    }
+} */
+
+/* 
+@media (max-width:1100px) {
+    .images-wraper {
+        flex-direction: column;
+        align-items: center;
+    }
+} */
+
+@media (max-width:1060px) {
+    .image-block {
+        width: 48%;
+    }
+}
+
+@media (max-width:480px) {
+    .image-block {
+        width: 100%;
+    }
+}
+
+
+
+/* Header responsive */
+@media (max-width: 768px) {
+    /* .navigation {
+        display: none;
+    } */
+    .nav-li:not(.active) {
+        display: none;
+    }
+    .burger-icon {
+        display: block;
+    }
+}
